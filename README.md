@@ -1,7 +1,7 @@
 # chrome-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/masfu/chrome-go/cdp.svg)](https://pkg.go.dev/github.com/masfu/chrome-go/cdp)
-[![Go Report Card](https://goreportcard.com/badge/github.com/masfu/chrome-go/cdp)](https://goreportcard.com/report/github.com/masfu/chrome-go/cdp)
+[![Go Reference](https://pkg.go.dev/badge/github.com/masfu/chrome-go.svg)](https://pkg.go.dev/github.com/masfu/chrome-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/masfu/chrome-go)](https://goreportcard.com/report/github.com/masfu/chrome-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Instrument headless Chrome/Chromium instances from Go.
@@ -30,7 +30,7 @@ Instrument headless Chrome/Chromium instances from Go.
 ## Installation
 
 ```bash
-go get github.com/masfu/chrome-go/cdp
+go get github.com/masfu/chrome-go
 ```
 
 ## Quick start
@@ -43,7 +43,7 @@ import (
     "fmt"
     "log"
 
-    chrome "github.com/masfu/chrome-go/cdp"
+    chrome "github.com/masfu/chrome-go"
 )
 
 func main() {
@@ -162,7 +162,7 @@ if err != nil {
 }
 ```
 
-For the full API, see the [PRD](./PRD.md) and the godoc on [pkg.go.dev](https://pkg.go.dev/github.com/masfu/chrome-go/cdp).
+For the full API, see the [PRD](./PRD.md) and the godoc on [pkg.go.dev](https://pkg.go.dev/github.com/masfu/chrome-go).
 
 ---
 
